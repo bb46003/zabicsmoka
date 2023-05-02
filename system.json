@@ -111,6 +111,6 @@
     "primaryTokenAttribute": "zycie",
     "secondaryTokenAttribute": "mana",
     "initiative": "(1d6)*@initD + @szybkosc",
-    "manifest": "C:/Users/bb46003/Documents/AZS/system.json",
+    "manifest": "https://github.com/bb46003/zabicsmoka/blob/3943cf58226543d4214c16ba0d15ddf3da5b0b8a/system.json",
   
 }
