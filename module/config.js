@@ -37,13 +37,28 @@ AZS.rasa = {
     czlowiek:"AZS.rasa.czlowiek",
     elf:"AZS.rasa.elf",
     ork:"AZS.rasa.ork",
-    krasnolud:"AZS.rasa.krasnolud"
+    krasnolud:"AZS.rasa.krasnolud",
+    centaur:"AZS.rasa.centaur",
+    gnom:"AZS.rasa.gnom",
+    goblin:"AZS.rasa.goblin",
+    jaszczurolud:"AZS.rasa.jaszczurolud",
+    kobold:"AZS.rasa.kobold",
+    niziołek:"AZS.rasa.niziołek",
+    satyr:"AZS.rasa.satyr"
 },
 AZS.pochodzenie = {
     wojownik:"AZS.pochodzenie.wojownik",
     lotr:"AZS.pochodzenie.lotr",
     mag:"AZS.pochodzenie.mag",
-    podroznik:"AZS.pochodzenie.podroznik"
+    podroznik:"AZS.pochodzenie.podroznik",
+    alchemik : "AZS.pochodzenie.alchemik",
+    barbarzyńca: "AZS.pochodzenie.barbarzyńca", 
+    bard: "AZS.pochodzenie.bard",
+    kapłan: "AZS.pochodzenie.kapłan",  
+    łowca: "AZS.pochodzenie.łowca",
+    mnich: "AZS.pochodzenie.mnich",
+    skrytobójca: "AZS.pochodzenie.skrytobójca",
+    szaman: "AZS.pochodzenie.szaman"
 }
 
 AZS.bronSpecjalne = {
