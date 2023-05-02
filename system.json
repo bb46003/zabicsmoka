@@ -112,6 +112,6 @@
     "secondaryTokenAttribute": "mana",
     "initiative": "(1d6)*@initD + @szybkosc",
     "manifest": "https://raw.githubusercontent.com/bb46003/zabicsmoka/main/system.json",
-    "download": "https://github.com/dungeonmemelord/AZS/archive/refs/tags/v1.08.zip"
+    "download": "https://github.com/bb46003/zabicsmoka/archive/refs/heads/main.zip"
   
 }
