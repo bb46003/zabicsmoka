@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="srodek">
-                    <select name="system.pochodzenie" style="width: auto; background: none; border: none; text-align: center;">
+                    <select name="system.pochodzenie">
                         {{#select actor.system.pochodzenie}}
                         {{#each config.pochodzenie as |name type|}}
                         <option value="{{type}}">{{localize name}}</option>
@@ -20,7 +20,7 @@
                     </select>
                 </div>
                 <div class="srodek">
-                    <select name="system.rasa" style="width: auto; background: none; border: none; text-align: center;">
+                    <select name="system.rasa">
                         {{#select actor.system.rasa}}
                         {{#each config.rasa as |name type|}}
                         <option value="{{type}}">{{localize name}}</option>
@@ -34,7 +34,7 @@
             <div class="postac portret"><img src="{{actor.img}}" data-edit="img" title="{{actor.name}}" style="border: none;"/></div> 
             <div class="postac notatki">
                 <h3>Biografia postaci</h3>
-                <textarea name="actor.system.opis" style="background: none; border: none; height: 110px; width: 175px;">{{actor.system.opis}}</textarea>
+                <textarea name="actor.system.opis">{{actor.system.opis}}</textarea>
             </div>
             <div class="postac poziom">
                 <div class = "opis paddingLewo">Poziom</div>
