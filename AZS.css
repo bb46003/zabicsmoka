@@ -18,8 +18,8 @@
   grid-area: bron-image;
 }
 .bron-nazwa {
-  border-bottom: 2px solid black;
-  grid-area: bron-nazwa;
+    border-bottom: 2px solid black;
+    grid-area: bron-nazwa;
 }
 .bron-staty {
   border-bottom: 2px solid black;
@@ -81,7 +81,7 @@
   border: 2px solid black;
 }
 .ogolne-content {
-  width: 350;
+  width: 350px;
   display: grid;
   grid-template-rows: 75px 100px;
   grid-template-columns: 75px auto;
@@ -94,11 +94,16 @@
   grid-template-columns: 75px 223px;
   border: 2px solid black;
 }
+postac-sheet {
+    min-width: 760px;
+    min-height: 500px
+}
+
 .postac-siatka {
   display: grid;
-  grid-template-columns: 150px 180px 100px 250px;
-  grid-template-rows: 70px 290px 150px;
-  grid-gap: 5px;
+  grid-template-columns: 9.375rem 11.25rem 6.25rem 15.625rem;
+  grid-template-rows: 4.375rem 18.125rem 9.375rem;
+  grid-gap: 0.313rem;
   grid-template-areas: "naglowek naglowek poziom plecak" "atrybuty bieglosci zasoby plecak" "portret notatki zasoby2 zasoby2";
 }
 h3 {
